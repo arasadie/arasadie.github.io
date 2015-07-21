@@ -1,0 +1,309 @@
+
+	/*****************************************************************/
+	/* Page 														*/
+	/*****************************************************************/
+		
+	ul.service-list li p,		
+	ul.testimonials-list li p
+	{
+	 	color:#B5B5B5;	
+	}
+	
+	/*****************************************************************/
+	/* Page 1 (About)												 */
+	/*****************************************************************/
+
+	div.page_1 ul.social-list
+	{
+		margin-top:10px;
+	}
+	
+		/**************************************************************/
+		/* Page 1 (About)	/ Social List						      */
+		/**************************************************************/
+		
+		ul.social-list li
+		{
+			min-height:33px;
+			padding-left:55px;
+			margin-bottom:10px;
+			background-repeat:no-repeat;
+			background-position:center left;
+		}	
+						
+			ul.social-list li.social-list-twitter 	{ background-image:url('../image/icon_twitter.png'); 	}		
+			ul.social-list li.social-list-facebook { background-image:url('../image/icon_facebook.png');	}	
+			
+				ul.social-list li a,
+				ul.social-list li span
+				{
+					display:block;
+				}
+				
+				ul.social-list li a
+				{
+					color:#B5B5B5;
+				}
+				
+		/**************************************************************/
+		/* Page 1 (About)	/ Slider							 	  */
+		/**************************************************************/
+				
+		#slider,
+		#slider-wrapper
+		{
+			width:260px;
+		}
+
+		#slider-wrapper
+		{
+			float:right;
+			height:320px;
+			background:url('../image/slider_preloader.gif') center center no-repeat;
+		}
+		
+		#slider
+		{
+			height:290px;
+		}
+		
+			#slider img
+			{
+				display:none;
+			}
+			
+			#slider div.nivo-controlNav
+			{
+				top:290px;
+				width:100%;
+				text-align:center;
+				position:absolute;
+			}
+			
+			#slider div.nivo-controlNav a.nivo-control
+			{
+				width:13px;
+				height:13px;
+				font-size:0px;
+				margin-left:5px;
+				text-align:center;
+				color:transparent;
+				display:inline-block;
+				background-repeat:no-repeat;
+				background-position:0px 0px;
+				background-image:url('../image/slider_navigation.png');
+			}
+			
+			#slider div.nivo-controlNav a.nivo-control:first-child
+			{
+				margin-left:0px;
+			}
+			
+			#slider div.nivo-controlNav a.nivo-control:hover,
+			#slider div.nivo-controlNav a.nivo-control.active
+			{
+				text-decoration:none;
+				background-position:0px -13px;
+			}
+	
+	/**************************************************************************/
+	/* Page 2 (Services)													  */
+	/**************************************************************************/
+
+	ul.service-list { }
+		
+		ul.service-list li
+		{
+			margin-bottom:12px;
+			background:url('../image/icon_feature.png') top left no-repeat;
+		}
+		
+			ul.service-list li div
+			{
+				margin-left:50px;
+			}
+			
+	/**************************************************************************/
+	/* Page 3 (Testimonials)												  */
+	/**************************************************************************/
+	
+	ul.testimonials-list { }
+	
+		ul.testimonials-list li
+		{
+			margin-top:15px;
+			padding-left:50px;
+			background:url('../image/icon_opinion.png') top left no-repeat;
+		}
+		
+		ul.testimonials-list li:first-child
+		{
+			margin-top:0px;
+		}
+			
+	/**************************************************************************/
+	/* Page 4 (Resume)														  */
+	/**************************************************************************/
+	
+	ul.resume-list { }
+	
+		ul.resume-list li
+		{
+			margin-bottom:40px;
+		}
+		
+			/******************************************************************/
+			/* Page 4 (Resume) / Skill List 								  */
+			/******************************************************************/
+			
+			ul.resume-list li ul.skill-list { }
+			
+				ul.resume-list li ul.skill-list li
+				{
+					clear:both;
+					height:100%;
+					overflow:hidden;
+					margin-bottom:10px;
+				}
+				
+					ul.resume-list li ul.skill-list li div.name,
+					ul.resume-list li ul.skill-list li div.value
+					{
+						display:block;
+					}
+
+					ul.resume-list li ul.skill-list li div.name
+					{
+						float:left;					
+					}
+					
+					ul.resume-list li ul.skill-list li div.value
+					{
+						float:right;
+						height:13px;
+						width:150px;
+						margin-top:2px;
+						border:solid 1px #E5E5E5;
+					}
+					
+						ul.resume-list li ul.skill-list li div.value span
+						{
+							width:0;
+							height:13px;
+							display:block;
+							background:#E5E5E5;
+						}
+						
+						ul.resume-list li ul.skill-list li div.value.value10 span 	{ width:10%; 	}
+						ul.resume-list li ul.skill-list li div.value.value20 span 	{ width:20%; 	}
+						ul.resume-list li ul.skill-list li div.value.value30 span 	{ width:30%; 	}
+						ul.resume-list li ul.skill-list li div.value.value40 span 	{ width:40%; 	}
+						ul.resume-list li ul.skill-list li div.value.value50 span 	{ width:50%; 	}
+						ul.resume-list li ul.skill-list li div.value.value60 span 	{ width:60%; 	}
+						ul.resume-list li ul.skill-list li div.value.value70 span 	{ width:70%; 	}
+						ul.resume-list li ul.skill-list li div.value.value80 span 	{ width:80%; 	}
+						ul.resume-list li ul.skill-list li div.value.value90 span 	{ width:90%; 	}
+						ul.resume-list li ul.skill-list li div.value.value100 span 	{ width:100%; 	}
+
+			/******************************************************************/
+			/* Page 4 (Resume) / Feature List 								  */
+			/******************************************************************/
+						
+			ul.resume-list li ul.feature-list { }
+				
+				ul.resume-list li ul.feature-list li
+				{
+					clear:both;
+					margin-bottom:0px;
+					padding-left:20px;
+					background:url('../image/icon_tick.png') center left no-repeat;
+				}
+					
+			/******************************************************************/
+			/* Page 4 (Resume) / Career List 								  */
+			/******************************************************************/
+					
+			ul.resume-list li ul.career-list { }
+				
+				ul.resume-list li ul.career-list li
+				{
+					margin-bottom:10px;
+				}
+					
+					ul.resume-list li ul.career-list li span.period,
+					ul.resume-list li ul.career-list li span.qualification,
+					ul.resume-list li ul.career-list li span.job-type
+					{
+						display:block;
+						color:#B5B5B5;
+					}
+
+					ul.resume-list li ul.career-list li p
+					{
+						margin-top:10px;
+					}		
+					
+	/**************************************************************************/
+	/* Page 5 (Portfolio)												      */
+	/**************************************************************************/							
+		
+	a.gallery-number
+	{
+		color:#FFFFFF;
+		font-weight:bold;
+		background:#000000;
+		padding:2px 5px 2px 5px;
+	}
+	
+	a.gallery-number:hover
+	{
+		color:#000000;
+		background:#FFFFFF;
+		text-decoration:none;
+	}
+	 		
+	ul.portfolio-list
+	{
+		margin-top:10px;
+	}
+	
+		ul.portfolio-list li
+		{
+			margin-bottom:20px;
+		}	
+	
+		ul.portfolio-list li.left
+		{
+			float:left;
+		}
+		
+		ul.portfolio-list li.right
+		{
+			float:right;
+		}
+		
+		ul.portfolio-list li a
+		{
+			display:block;
+		}
+		
+			ul.portfolio-list li img
+			{
+				display:block;
+			}
+	
+	/**************************************************************************/
+	/* Page 6 (Contact) 													  */
+	/**************************************************************************/					
+	
+	div.contact-section
+	{
+		margin-bottom:30px;
+	}		
+	
+	#gmap
+	{
+		width:100%;
+		height:120px;
+	}
+			
